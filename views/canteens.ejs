@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JMI Canteens</title>
+    <link rel="stylesheet" href="/css/home.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <img src="images/LOGOjmi.png" alt="JMI Logo" />
+      <div class="nav-links">
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="https://www.jmi.ac.in/" target="_blank">University</a>
+        <a href="/developers">Developers</a>
+      </div>
+      <img src="images/LOGOfood.png" alt="Food Logo" />
+    </nav>
+
+    <main class="main-content">
+      <div id="canteen-section">
+        <h2 style="text-align: center; margin: 2rem 0; color: #2c3e50">
+          Our Canteens
+        </h2>
+        <div class="canteen-grid">
+          <div class="canteen-card" onclick="window.location.href='/loginfet'">
+            <img
+              src="images/central.jpg"
+              alt="FET Canteen"
+              class="canteen-img"
+            />
+            <div class="canteen-name">FET Canteen</div>
+          </div>
+          <div
+            class="canteen-card"
+            onclick="window.location.href='/logincentral'"
+          >
+            <img
+              src="images/central.jpg"
+              alt="Central Canteen"
+              class="canteen-img"
+            />
+            <div class="canteen-name">Central Canteen</div>
+          </div>
+          <div
+            class="canteen-card"
+            onclick="window.location.href='/logincastro'"
+          >
+            <img
+              src="images/central.jpg"
+              alt="Castro Canteen"
+              class="canteen-img"
+            />
+            <div class="canteen-name">Castro Canteen</div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div id="clock"></div>
+        <div id="count"></div>
+      </div>
+    </footer>
+
+    <script src="/scripts/counter.js"></script>
+  </body>
+</html>

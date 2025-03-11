@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JMI Tenders</title>
+    <link rel="stylesheet" href="/css/home.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <img src="images/LOGOjmi.png" alt="JMI Logo" />
+      <div class="nav-links">
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="https://www.jmi.ac.in/" target="_blank">University</a>
+        <a href="/developers">Developers</a>
+      </div>
+      <img src="images/LOGOfood.png" alt="Food Logo" />
+    </nav>
+
+    <main class="main-content">
+      <h2 style="text-align: center; margin: 2rem 0; color: #2c3e50">
+        Tender Notices
+      </h2>
+      <section class="request-section">
+        <h2 class="form-title">
+          Want to open a Canteen at JMI?<br />Submit Your Request
+        </h2>
+        <form>
+          <div class="form-group">
+            <input
+              type="text"
+              class="form-input"
+              placeholder="Name of Requester/Organization"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="number"
+              class="form-input"
+              placeholder="Mobile Number"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="email"
+              class="form-input"
+              placeholder="Email Address"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="text"
+              class="form-input"
+              placeholder="Preferred Campus Location"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="number"
+              class="form-input"
+              placeholder="Number of Partners"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <input type="date" class="form-input" required />
+          </div>
+          <div class="form-group">
+            <input
+              type="text"
+              class="form-input"
+              placeholder="Reference (if any)"
+            />
+          </div>
+          <div class="form-buttons">
+            <button type="submit" class="btn btn-primary">
+              Submit Request
+            </button>
+            <button type="reset" class="btn btn-secondary">Reset Form</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div id="clock"></div>
+        <div id="count"></div>
+      </div>
+    </footer>
+
+    <script src="/scripts/counter.js"></script>
+  </body>
+</html>
